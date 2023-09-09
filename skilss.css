@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"); 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e0d2b8;
+    font-family: "Nunito";
+}
+
+nav{
+    background-color: #5b4b49;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    ul{
+        display: flex; 
+        justify-content: center;
+    }
+
+    li{
+      color: whitesmoke;
+      list-style: none; 
+      padding: 1rem;
+      display: inline;
+    }
+
+    li > a{
+        text-decoration: none;
+        color: white;
+    }
+
+     li:hover{
+        background-color: #77625f; 
+        color:black;
+    }
+
+    .text{
+        text-align: center;
+    }
+
+    h1{
+        padding-left: 21px;
+        color: #fcecd9;
+        text-align: center;
+    }
+
+    .skilss a{
+        border-bottom: 3px solid #d6cdcc;
+    }
+
+    h2{
+        color: black;
+        font-family: "Nunito";
+        text-align: left;
+    }
+
+    
+    section{
+        text-align: center;
+    }
+    
+    .gambar {
+        padding: 10px;
+        border: 2px solid rgba(181, 123, 36, 0.782);
+        display: inline-block;
+        margin: 220px;
+        text-align: center;
+    }
+    .gambar p{
+        font-size: 20px;
+    }
+     
+    .bebek{
+        display: flex;
+    }

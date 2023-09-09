@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Portfolio Fatih</title>
+    <link rel="icon" type="gambr" href="download (2).jpeg" />
+  </head>
+  <body>
+    <nav>
+      <div class="fatih">
+        <h1>MyPortofolio</h1>
+      </div>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li class="about"><a href="about.html">ABOUT</a></li>
+        <li><a href="skillss.html"> SKILLS</a></li>
+        <li><a href="project.html">PROJECT</a></li>
+      </ul>
+    </nav>
+    <div class="text">
+      <img class="gambarbg" src="Ellipse 1.png" width="250" height="250" />
+      <h2>DAFFA AL FATIH</h2>
+    </div>
+    <div class="aboutme">
+      <button onclick="typeWriter()">CLICK HERE</button>
+      <p id="demo"></p>
+
+      <script>
+        var i = 0;
+        var txt =
+          "HALO, NAMA SAYA DAFFA AL FATIH, SAYA BERUMUR 16 TAHUN. SAYA LAHIR DI JAKARTA, 18 JUNI 2007. SEKARANG SAYA SUDAH KELAS 11 SMK DI SMK PARIWISATA METLAND SCHOOL. HOBI SAYA ADALAH BERMAIN GAME. SAYA JUGA SUKA BEROLAHRAGA SALAH SATUNYA BERMAIN FUTSAL. FUTSAL ADALAH SALAH SATU HOBI DAN OLAHRAGA FAVORIT SAYA. SELAIN ITU, SAYA JUGA SUKA MENONTON PERTANDINGAN SEPAK BOLA";
+        var speed = 50;
+
+        function typeWriter() {
+          if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+          }
+        }
+      </script>
+    </div>
+    <div class="mysosmed">
+      <h3>My Social Media</h3>
+      <a href="https://www.instagram.com/dffaalfatih_/">
+        <img class="instagram" src="instagram.png" />
+      </a>
+      <a href="https://github.com/Fatih180607">
+        <img
+          class="github"
+          src="Github_Logo_free_icons_designed_by_Dave_Gandy-removebg-preview.png"
+        />
+      </a>
+      <a href="https://web.facebook.com/daffa.a.fatih.39/">
+        <img class="facebook" src="facebook.png" />
+      </a>
+      <a href="https://twitter.com/DaffaAl77666466">
+        <img class="x" src="x new logo.png" />
+      </a>
+    </div>
+  </body>
+</html>

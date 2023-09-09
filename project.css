@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"); 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e0d2b8;
+    font-family: "Nunito";
+}
+
+nav{
+    background-color: #5b4b49;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    ul{
+        display: flex; 
+        justify-content: center;
+    }
+
+    li{
+      color: whitesmoke;
+      list-style: none; 
+      padding: 1rem;
+      display: inline;
+    }
+
+    li > a{
+        text-decoration: none;
+        color: white;
+    }
+
+     li:hover{
+        background-color: #77625f; 
+        color:black;
+    }
+
+    h1{
+        padding-left: 21px;
+        color: #fcecd9;
+    }
+
+    .project a{
+        border-bottom: 3px solid #d6cdcc;
+    }
+
+    .mypj{
+        margin: 3%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: #5b4b49;     
+      }
+      
+      .projectgua {
+        text-align: center;
+        animation-duration: 2s;
+        animation-name: slidein;
+        font-family: "Nunito";
+      }
+
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+
+      .projectt {
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #5b4b49;
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+      }
+
+      .projectt a{
+        text-decoration: none;
+        color: #5b4b49;
+      }
+
+      .projecttt a {
+        color: #fff;
+      }
+
+      .projecttt {
+        display: flex;
+        justify-content: center;
+      }
